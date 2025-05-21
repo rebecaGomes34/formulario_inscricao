@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to right, #FFED89, #FFAA65);
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #fefefe;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    color:#FAFFFF;
+    margin-bottom: 50px;
+    font-family: 'Georgia', serif;
+}
+
+form section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF695E;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d1564d;
+}
+
+section:last-of-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
